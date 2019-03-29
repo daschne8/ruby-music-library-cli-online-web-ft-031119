@@ -1,5 +1,8 @@
 require 'pry'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ebf313f2f1fed0495e92a61a786e0ce46dd3c89
 class MusicLibraryController
   attr_accessor :path, :importer
   def initialize(path = './db/mp3s')
@@ -102,3 +105,6 @@ class MusicLibraryController
   end
 
 end
+
+
+binding.pry
