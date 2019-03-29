@@ -1,5 +1,6 @@
 # require_relative '../lib/concerns/findable.rb'
 require_relative '../lib/concerns/concerns.rb'
+
 class Genre
   extend Concerns::Findable
   attr_accessor :name
@@ -36,3 +37,4 @@ class Genre
     (self.songs.collect {|song| song.artist}).uniq
   end
 end
+
