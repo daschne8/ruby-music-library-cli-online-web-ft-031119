@@ -1,5 +1,5 @@
 require 'pry'
-require_relative './lib/music_importer.rb'
+
 class MusicLibraryController
   attr_accessor :path, :importer
   def initialize(path = './db/mp3s')
